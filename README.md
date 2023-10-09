@@ -9,6 +9,9 @@
 - Get rid of cookie banners, floating elements, etc.
 - Customizable screenshot save folder location.
 
+![Results](/Images/results.png)
+*Figure 1: the result after running the program: a folder with every page of a website screenshotted.*
+
 ## Minimal (system) requirements
 - The program is built and tested for Windows operating systems using Python 3.9. It is also tested on Python 3.8.
 - The working on other technology stacks cannot be guaranteed. 
@@ -41,7 +44,7 @@
 ### Beginner-friendly installation guide
    
    1. Download Python 3.9 at the [Python website](https://www.python.org/downloads/release/python-390/).
-   2. Download the latest release of XML-screenshotter at (Releases)[https://github.com/StachRedeker/XML-screenshotter/releases].
+   2. Download the latest release of XML-screenshotter at [Releases](https://github.com/StachRedeker/XML-screenshotter/releases).
    3. Sign up for a [ScreenshotOne](https://screenshotone.com/) account and obtain your API `access_key` and `secret_key`. The free plan allows for 100 screenshots each month.
    4. Press the Windows key and the R key simultaneously. A 'run' dialog will show up.
    5. Type `cmd` and press enter.
