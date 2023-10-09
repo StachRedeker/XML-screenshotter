@@ -22,8 +22,6 @@ Developed by Stach Redeker & ChatGPT, 2023. Released under the MIT license.
 ## Installation, setup and usage
 
 ### Beginner-friendly installation guide
-
-<details>
    
    1. Download Python 3.9 at the [Python website](https://www.python.org/downloads/release/python-390/).
    2. Download the latest release of XML-screenshotter at (Releases)[https://github.com/StachRedeker/XML-screenshotter/releases].
@@ -34,9 +32,6 @@ Developed by Stach Redeker & ChatGPT, 2023. Released under the MIT license.
    7. Type `pip install requests beautifulsoup4 screenshotone` and press enter.
    8. Type `python Screenshotter.py`. Press enter.
    9. Follow the instructions in the terminal to create screenshots.
- 
-</details>
-
 
 ### Quick installation guide
    
