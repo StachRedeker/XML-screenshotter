@@ -1,5 +1,5 @@
 # Automatic XML Sitemap Screenshotter
-> Automatically generate screenshots from URLs found in an XML sitemap.
+> Automatically generate screenshots from URLs found in an XML sitemap using the ScreenshotOne API in Python.
 
 Developed by Stach Redeker & ChatGPT, 2023. Released under the MIT license.
 
@@ -8,43 +8,39 @@ Developed by Stach Redeker & ChatGPT, 2023. Released under the MIT license.
 - Generate full-page screenshots with a width of 1920 pixels using the ScreenshotOne API.
 - Customizable screenshot save location.
 
-## Dependencies
+## Minimal (system) requirements
+- The program is built and tested for Windows operating systems using Python 3.9.
+- The working on other technology stacks cannot be guaranteed. 
+
+### Python dependencies
 - `os`
 - `requests`
 - `shutil`
 - `bs4` (Beautiful Soup 4)
 - `screenshotone`
 
-## Installation & Setup
-
-1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/[your_username]/sitemap-screenshotter.git
-    cd sitemap-screenshotter
-    ```
+## Installation, setup and usage
    
-2. **Install Dependencies**
+1. **Installing Dependencies**
     ```bash
     pip install requests beautifulsoup4 screenshotone
     ```
    
-3. **Configure API Credentials**
-    - Sign up on [ScreenshotOne](https://screenshotone.com/) and obtain your API `access_key` and `secret_key`.
-    - Input the API credentials when prompted by the application.
-
-## Usage
-
-Run the script:
-```bash
-python sitemap_screenshotter.py
-```
+2. **Creating API Credentials**
+    - Sign up for a [ScreenshotOne](https://screenshotone.com/) account and obtain your API `access_key` and `secret_key`. The free plan allows for 100 screenshots each month
+    - Input the API credentials when prompted by the application during runtime.
+  
+3. **Running the script**
+    ```bash
+    python Screenshotter.py
+    ```
 
 ## Limitations
 
  - Nested sitemaps (sitemaps linking to other sitemaps) are not supported.
 
 ## License
-This project is released under the MIT License. See LICENSE for details.
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 
 ## Acknowledgements
