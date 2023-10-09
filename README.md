@@ -1,13 +1,16 @@
 # Automatic XML Sitemap Screenshotter
 > Automatically generate screenshots from URLs found in an XML sitemap using the ScreenshotOne API in Python. Developed by Stach Redeker & ChatGPT, 2023. Released under the MIT license.
 
-[INTRODUCTION]
+As a WordPress specialist, I like to show my work. This means that I often have to take screenshots of websites. Although browser extensions exist that can capture a single, full-page screenshot, little tooling is available for capturing an entire website. The Automatic XML Sitemap Screenshotter aims to change that. The program is open-source and Python-based. Automatic XML Sitemap Screenshotter uses the ScreenshotOne API to capture images of an entire website, based on an XML sitemap input.
+
+I opted for an implementation using the ScreenshotOne API because making full-page screenshots is not trivial. Nowadays, sites have sticky headers, cookie banners, and other annoying pop-ups, making capturing a proper full-page image very difficult. The ScreenshotOneAPI has inbuilt tooling to combat all these issues. Why bother reinventing the wheel, right?
 
 ## Features
-- Automatically extract URLs from a provided XML sitemap.
-- Generate full-page screenshots with a width of 1920 pixels using the ScreenshotOne API.
-- Get rid of cookie banners, floating elements, etc.
-- Customizable screenshot save folder location.
+The program...
+- automatically extracts URLs from a provided XML sitemap;
+- generates full-page screenshots with a width of 1920 pixels using the ScreenshotOne API;
+- gets rid of cookie banners, floating elements, etc.;
+- allows the user to set a folder where the screenshots are saved.
 
 ![Results](/Images/result.png)
 *Figure 1: the result after running the program: a folder with every page of a website screenshotted.*
