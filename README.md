@@ -53,7 +53,7 @@ The program...
    4. Press the Windows key and the R key simultaneously. A 'run' dialog will show up.
    5. Type `cmd` and press enter.
    6. Type `cd` and then the [folder path](https://www.sony.com/electronics/support/articles/00015251) of the folder where `Screenshotter.py` is located. Example: `cd C:\Users\stach\OneDrive\Bureaublad\screenshotter`. Press enter.
-   7. Type `pip install requests beautifulsoup4 screenshotone` and press enter.
+   7. Type `pip install requests beautifulsoup4 screenshotone lxml` and press enter.
    8. Type `python Screenshotter.py`. Press enter.
    9. Follow the instructions in the terminal to create screenshots.
 
