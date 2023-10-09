@@ -72,3 +72,4 @@ This project is released under the MIT License. See [LICENSE](LICENSE) for detai
 
 
 ## Acknowledgements
+[ScreenshotOne's Python SDK documentation](https://github.com/screenshotone/pythonsdk) was very helpful to integrate the ScreenshotOne API. I used the [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to learn more about extracting URLs from an XML page. [ChatGPT](https://chat.openai.com/) helped me to write boilerplate code. I also used ChatGPT for troubleshooting.
