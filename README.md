@@ -24,6 +24,7 @@ The program...
 - `requests`
 - `shutil`
 - `bs4` (Beautiful Soup 4)
+- `lxml`
 - `screenshotone`
 
 ## Installation, setup and usage
@@ -32,7 +33,7 @@ The program...
    
 1. **Installing Dependencies**
     ```bash
-    pip install requests beautifulsoup4 screenshotone
+    pip install requests beautifulsoup4 screenshotone lxml
     ```
    
 2. **Creating API Credentials**
