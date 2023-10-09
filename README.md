@@ -9,7 +9,7 @@
 - Get rid of cookie banners, floating elements, etc.
 - Customizable screenshot save folder location.
 
-![Results](/Images/results.png)
+![Results](/Images/result.png)
 *Figure 1: the result after running the program: a folder with every page of a website screenshotted.*
 
 ## Minimal (system) requirements
@@ -52,6 +52,10 @@
    7. Type `pip install requests beautifulsoup4 screenshotone` and press enter.
    8. Type `python Screenshotter.py`. Press enter.
    9. Follow the instructions in the terminal to create screenshots.
+
+
+![Program](/Images/program.png)
+*Figure 2: the program in action.*
 
 ## Limitations
 
